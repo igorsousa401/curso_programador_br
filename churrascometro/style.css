@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    margin: 50px auto;
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius:  20px;
+}
+#title{
+    font-size: 30px;
+    margin: 20px 0;
+}
+input{
+    margin: 10px auto;
+    display: block;
+    width: 50%;
+    padding:10px 20px;
+}
