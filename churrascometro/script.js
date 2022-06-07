@@ -10,6 +10,9 @@ let calcular = () => {
     // Condições
     if((inputAdultos.value < 0) || (inputCriancas.value < 0) || (inputDuracao < 0)) {
         titleResultado.textContent = 'Valores inválidos'
+        carneResultado.textContent = ''
+        cervejaResultado.textContent = ''
+        refrigeranteResultado.textContent = ''
     } else{
 
         // Adultos
